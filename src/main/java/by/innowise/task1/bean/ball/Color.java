@@ -1,4 +1,4 @@
-package by.innowise.task1.bean;
+package by.innowise.task1.bean.ball;
 
 public enum Color {
     ORANGE,

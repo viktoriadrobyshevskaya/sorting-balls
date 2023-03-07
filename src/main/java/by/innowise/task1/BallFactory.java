@@ -1,7 +1,7 @@
 package by.innowise.task1;
 
-import by.innowise.task1.bean.Ball;
-import by.innowise.task1.sorting.SortingType;
+import by.innowise.task1.bean.ball.Ball;
+import by.innowise.task1.bean.sorting.SortingType;
 
 import java.util.Comparator;
 import java.util.List;
@@ -14,7 +14,7 @@ public class BallFactory {
     }
 
     public void sortBasket(SortingType sortingType, Comparator<Ball> comparator) {
-            sortingType.sort(bucket, comparator);
+        sortingType.sort(bucket, comparator);
     }
 
     public List<Ball> getBucket() {

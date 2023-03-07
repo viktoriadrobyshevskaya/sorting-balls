@@ -1,8 +1,7 @@
 package by.innowise.task1;
 
-public class BallFactoryRunner {
+public class SortingBallsMain {
     public static void main(String[] args) {
-
 
     }
 }

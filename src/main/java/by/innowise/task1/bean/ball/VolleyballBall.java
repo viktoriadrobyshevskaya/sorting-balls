@@ -1,8 +1,8 @@
-package by.innowise.task1.bean;
+package by.innowise.task1.bean.ball;
 
 public class VolleyballBall extends Ball {
-    public VolleyballBall(int size, Color color) {
-        super(size, color);
+    public VolleyballBall(int size, Color color, String brand) {
+        super(size, color, brand);
     }
 
     @Override
@@ -10,6 +10,7 @@ public class VolleyballBall extends Ball {
         return "VolleyballBall{" +
                 "size=" + super.getSize() +
                 ", color=" + super.getColor() +
+                ", brand='" + super.getBrand() +
                 '}';
     }
 }

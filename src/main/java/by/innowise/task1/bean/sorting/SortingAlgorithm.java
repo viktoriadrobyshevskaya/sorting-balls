@@ -1,6 +1,6 @@
-package by.innowise.task1.sorting;
+package by.innowise.task1.bean.sorting;
 
-import by.innowise.task1.bean.Ball;
+import by.innowise.task1.bean.ball.Ball;
 
 import java.util.List;
 
